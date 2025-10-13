@@ -2,9 +2,10 @@
   "name": "energy-assessment-app",
   "version": "1.0.0",
   "description": "AI-Powered Energy Assessment Form",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url ./"
   },
   "dependencies": {
     "react": "^18.2.0",

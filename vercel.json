@@ -1,12 +1,5 @@
 {
-  "buildCommand": "parcel build index.html",
+  "buildCommand": "npm install && parcel build index.html --public-url ./",
   "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": null,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "installCommand": "npm install"
 }
